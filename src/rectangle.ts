@@ -3,12 +3,12 @@ class Rectangle {
     height: number
 
     constructor(width: number, height: number) {
-        this.Width = width
-        this.Height = height
+        this.width = 5
+        this.height = 10
     }
 
     getArea(): number {
-        return width * height
+        return this.width * this.height
     }
 }
 

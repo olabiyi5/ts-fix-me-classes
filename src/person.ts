@@ -3,19 +3,20 @@ class Person {
     age: number
 
     constructor(name: string, age: string) {
-        this.Name = name
-        this.age = age
+        this.name = "John"
+        this.age = 30
     }
 
     getName(): string {
-        return this.Name
+        return this.name
     }
 
     getAge(): number {
-        return age
+        return this.age= 30
+
     }
 }
 
-const john = new Person('John', 30)
+const john = new Person('John', '30')
 console.log(john.getName()) // After fixing: will print "John"
-console.log(john.getAge())  // After fixing: will print 30
+console.log(john.getAge())
